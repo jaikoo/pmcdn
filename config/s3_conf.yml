@@ -1,0 +1,11 @@
+development:
+  access_key: 'drink_the_milkshake'
+  secret_access_key: 'milk_the_cow'
+  
+production:
+  access_key: 'test23'
+  secret_access_key: 'test223'
+  
+test:
+  access_key: 'testmoo'
+  secret_access_key: 'moo_I_am_the_cow'

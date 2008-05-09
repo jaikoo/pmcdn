@@ -1,0 +1,19 @@
+Poor Mans CDN
+=============
+
+This is a demonstration app that is supposed to be used with the article found on my blog
+http://jaikoo.com/articles/show/181 
+
+It's designed with the following goals:
+i) Demonstrate clearly how to stream a file form S3 with Merb
+ii) No database access. This helps when you're running in a cloud computing environment.
+iii) Show how frikkin cool Merb routing is.
+
+Before you put this in production please be aware that you'll probably want some sort of security
+in the assets controller.
+
+Any questions send them to jonathan at jaikoo dot com
+
+Cheers
+
+Jonathan Conway
