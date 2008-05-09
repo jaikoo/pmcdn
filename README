@@ -10,7 +10,9 @@ ii) No database access. This helps when you're running in a cloud computing envi
 iii) Show how frikkin cool Merb routing is.
 
 Before you put this in production please be aware that you'll probably want some sort of security
-in the assets controller.
+in the assets controller. You'll also want to make the bucket name configurable.
+
+Modify the s3_conf.yml file and change BUCKET_NAME in the assets controller.
 
 Any questions send them to jonathan at jaikoo dot com
 
